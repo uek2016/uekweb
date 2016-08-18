@@ -6,6 +6,7 @@
 .sgq-header {
   height: 126px;
   background: #212e3e;
+  font-family: "微软雅黑";
 }
 .sgq-header .sgq-main {
   height: 100%;
@@ -25,6 +26,7 @@
   background: url("../images/sgq/toubu_03.png");
 }
 .sgq-nav {
+  font-family: "微软雅黑";
   position: relative;
   z-index: 1000;
   height: 64px;
@@ -69,4 +71,7 @@
   margin-left: auto;
   margin-right: auto;
   border-top: 1px solid #69d1f8;
+}
+.sgq-nav .sgq-nav-item .sgq-nav-list .sgq-nav-list-item a:hover {
+  color: #212e3e;
 }

@@ -1,6 +1,18 @@
+.sgq-main {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sgq-environment h1 {
+  color: #333;
+}
+.friendly-link span {
+  color: #333;
+}
 .sgq-environment {
   width: 942px;
   margin: 55px auto 40px auto;
+  font-family: "微软雅黑";
 }
 .sgq-environment h1 {
   line-height: 55px;
@@ -56,6 +68,7 @@
   display: none;
 }
 .sgq-footer {
+  font-family: "微软雅黑";
   width: 942px;
   margin: 0 auto;
 }
@@ -98,7 +111,7 @@
   height: 160px;
 }
 .sgq-footer .sgq-foot .sgq-foot-midden p {
-  line-height: 25px;
+  line-height: 36px;
 }
 .sgq-footer .sgq-foot .sgq-foot-right {
   float: right;

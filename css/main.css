@@ -1,0 +1,397 @@
+body {
+  font-family: "微软雅黑";
+}
+.sgq-main {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sgq-recommend-title {
+  color: #333;
+}
+.sgq-curriculum {
+  margin-top: 22px;
+}
+.sgq-curriculum .sgq-main {
+  padding-left: 78px;
+}
+.sgq-curriculum .sgq-main .sgq-curriculum-title {
+  width: 165px;
+  height: 52px;
+  margin-bottom: 20px;
+  background: url("../images/sgq/biaoti.png");
+}
+.sgq-curriculum .sgq-main .sgq-curriculum-boxs:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.sgq-curriculum .sgq-main .sgq-curriculum-box {
+  position: relative;
+  width: 132px;
+  height: 130px;
+  border: 6px solid #dcdcdc;
+  padding: 23px;
+  float: left;
+  margin-right: 50px;
+}
+.sgq-curriculum .sgq-main .sgq-curriculum-box p {
+  line-height: 22px;
+}
+.sgq-curriculum .sgq-main .sgq-curriculum-box .sgq-curriculum-class {
+  font-size: 18px;
+}
+.sgq-curriculum .sgq-main .sgq-curriculum-box .sgq-curriculum-box-title {
+  margin-top: 50px;
+  font-size: 18px;
+}
+.sgq-curriculum .sgq-main .sgq-curriculum-box .sgq-curriculum-box-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+.sgq-curriculum .sgq-main .sgq-curriculum-box .sgq-curriculum-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 248px;
+  height: 240px;
+  margin-left: -34px;
+  margin-top: -24px;
+  text-align: center;
+  background: url("../images/sgq/xuanzhong1.png");
+  color: #fff;
+  z-index: 5;
+}
+.sgq-curriculum .sgq-main .sgq-curriculum-box .sgq-curriculum-content h1 {
+  margin-top: 35px;
+  font-size: 18px;
+}
+.sgq-curriculum .sgq-main .sgq-curriculum-box .sgq-curriculum-content .sgq-curriculum-time {
+  display: block;
+  margin-bottom: 10px;
+}
+.sgq-curriculum .sgq-main .sgq-curriculum-box .sgq-curriculum-content .sgq-curriculum-more {
+  border: 1px solid #fff;
+  padding: 4px 20px;
+}
+.sgq-curriculum .sgq-main .sgq-curriculum-box .sgq-curriculum-decorate {
+  position: absolute;
+  left: 22px;
+  bottom: -6px;
+  width: 30px;
+  height: 6px;
+  background: #ff9933;
+}
+.sgq-main-area {
+  margin-top: 50px;
+  overflow: hidden;
+}
+.sgq-main-area .sgq-main-area-left {
+  width: 241px;
+  float: left;
+}
+.sgq-main-area .sgq-main-area-left .sgq-enrol {
+  width: 212px;
+  margin-left: 30px;
+}
+.sgq-main-area .sgq-main-area-left .sgq-enrol .sgq-enrol-title {
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.sgq-main-area .sgq-main-area-left .sgq-enrol .sgq-enrol-title h1 {
+  width: 130px;
+  float: left;
+  font-size: 18px;
+  color: #333;
+}
+.sgq-main-area .sgq-main-area-left .sgq-enrol .sgq-enrol-title .sgq-enrol-more {
+  width: 62px;
+  height: 27px;
+  float: right;
+  background: url("../images/sgq/anniu.png");
+}
+.sgq-main-area .sgq-main-area-left .sgq-enrol .sgq-enrol-content li {
+  background: url("../images/sgq/wenzinrir_29.png") left center no-repeat;
+  height: 30px;
+  width: 100%;
+  line-height: 30px;
+  padding-left: 25px;
+}
+.sgq-main-area .sgq-main-area-left .sgq-enrol .sgq-enrol-content li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #797979;
+  font-size: 16px;
+}
+.sgq-main-area .sgq-main-area-left .sgq-enrol .sgq-enrol-content li a:hover {
+  color: #212e3e;
+}
+.sgq-main-area .sgq-main-area-left .sgq-news {
+  margin-top: 50px;
+}
+.sgq-main-area .sgq-main-area-left .sgq-news .sgq-enrol-title .sgq-enrol-more {
+  width: 62px;
+  height: 27px;
+  float: right;
+  background: url("../images/sgq/anniu0.png");
+}
+.sgq-main-area .sgq-main-area-middle {
+  width: 460px;
+  float: left;
+  margin-bottom: 20px;
+}
+.sgq-main-area .sgq-main-area-middle .sgq-ke {
+  width: 426px;
+  margin-left: 50px;
+}
+.sgq-main-area .sgq-main-area-middle .sgq-ke .sgq-ke-title {
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+}
+.sgq-main-area .sgq-main-area-middle .sgq-ke .sgq-ke-title h1 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+.sgq-main-area .sgq-main-area-middle .sgq-ke .sgq-ke-content {
+  position: relative;
+}
+.sgq-main-area .sgq-main-area-middle .sgq-ke .sgq-ke-content .sgq-ke-more {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.sgq-main-area .sgq-main-area-middle .sgq-ke .sgq-ke-content li {
+  height: 94px;
+  position: relative;
+  padding-left: 79px;
+}
+.sgq-main-area .sgq-main-area-middle .sgq-ke .sgq-ke-content li img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 56px;
+  height: 56px;
+}
+.sgq-main-area .sgq-main-area-middle .sgq-ke .sgq-ke-content li .sgq-ke-content-title {
+  position: relative;
+}
+.sgq-main-area .sgq-main-area-middle .sgq-ke .sgq-ke-content li .sgq-ke-content-title a {
+  color: #797979;
+  font-size: 18px;
+  line-height: 28px;
+}
+.sgq-main-area .sgq-main-area-middle .sgq-ke .sgq-ke-content li .sgq-ke-content-title a:hover {
+  color: #212e3e;
+}
+.sgq-main-area .sgq-main-area-middle .sgq-ke .sgq-ke-content li .sgq-ke-content-title span {
+  position: absolute;
+  left: 5px;
+  bottom: 0;
+  width: 15px;
+  height: 1px;
+  background: #dfdfdf;
+}
+.sgq-main-area .sgq-main-area-middle .sgq-ke .sgq-ke-content .sgq-ke-content-con {
+  line-height: 36px;
+  color: #797979;
+}
+.sgq-main-area .sgq-main-area-middle .sgq-team {
+  width: 435px;
+  margin-left: 45px;
+  color: #27abff;
+  position: relative;
+  text-align: center;
+  margin-top: 23px;
+}
+.sgq-main-area .sgq-main-area-middle .sgq-team a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.sgq-main-area .sgq-main-area-middle .sgq-team .sgq-team-title {
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.sgq-main-area .sgq-main-area-middle .sgq-team .sgq-team-title h1 {
+  font-size: 18px;
+  color: #333;
+}
+.sgq-main-area .sgq-main-area-middle .sgq-team .sgq-team-content {
+  overflow: hidden;
+}
+.sgq-main-area .sgq-main-area-middle .sgq-team .sgq-team-content li {
+  float: left;
+  height: 282px;
+  margin-right: 18px;
+  position: relative;
+}
+.sgq-main-area .sgq-main-area-middle .sgq-team .sgq-team-content li .sgq-team-con .sgq-team-ch {
+  font-size: 16px;
+  margin-top: 26px;
+}
+.sgq-main-area .sgq-main-area-middle .sgq-team .sgq-team-content li .sgq-team-con .sgq-team-xing {
+  position: relative;
+}
+.sgq-main-area .sgq-main-area-middle .sgq-team .sgq-team-content li .sgq-team-con .sgq-team-xing span {
+  display: inline-block;
+  width: 9px;
+  height: 8px;
+  background: url("../images/sgq/wenzinrir_xx.png") no-repeat;
+}
+.sgq-main-area .sgq-main-area-middle .sgq-team .sgq-team-content li .sgq-team-con .sgq-team-zhiwei {
+  margin-top: 24px;
+}
+.sgq-main-area .sgq-main-area-middle .sgq-team .sgq-team-content li .sgq-team-con .sgq-team-line {
+  display: inline-block;
+  width: 24px;
+  height: 4px;
+  margin-top: 10px;
+  background: #27abff;
+}
+.sgq-main-area .sgq-main-area-right {
+  width: 225px;
+  float: right;
+  margin-right: 7px;
+}
+.sgq-main-area .sgq-main-area-right .sgq-job .sgq-job-title {
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.sgq-main-area .sgq-main-area-right .sgq-job .sgq-job-title h1 {
+  width: 130px;
+  float: left;
+  font-size: 18px;
+  color: #333;
+}
+.sgq-main-area .sgq-main-area-right .sgq-job .sgq-job-title .sgq-job-more {
+  width: 66px;
+  height: 28px;
+  float: right;
+  background: url("../images/sgq/anniu2.png");
+}
+.sgq-main-area .sgq-main-area-right .sgq-job .sgq-job-content .sgq-job-content-lis {
+  position: relative;
+  height: 78px;
+  margin-top: 42px;
+}
+.sgq-main-area .sgq-main-area-right .sgq-job .sgq-job-content .sgq-job-content-lis .sgq-job-img {
+  width: 96px;
+  height: 78px;
+  float: left;
+}
+.sgq-main-area .sgq-main-area-right .sgq-job .sgq-job-content .sgq-job-content-lis .sgq-job-img a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+}
+.sgq-main-area .sgq-main-area-right .sgq-job .sgq-job-content .sgq-job-content-lis .sgq-job-img img {
+  width: 100%;
+  height: 100%;
+}
+.sgq-main-area .sgq-main-area-right .sgq-job .sgq-job-content .sgq-job-content-lis .sgq-job-content-con {
+  width: 120px;
+  float: right;
+  font-size: 12px;
+  line-height: 13px;
+}
+.sgq-main-area .sgq-main-area-right .sgq-job .sgq-job-content .sgq-job-content-lis .sgq-job-content-con a {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 70px;
+  height: 18px;
+  background: url("../images/sgq/anniu3.png");
+}
+.sgq-big-img {
+  height: 96px;
+  background: url("../images/sgq/hengfu.png");
+}
+.sgq-big-img a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.sgq-recommend {
+  padding-left: 10px;
+  margin-top: 20px;
+}
+.sgq-recommend .sgq-recommend-box {
+  width: 308px;
+  margin-right: 20px;
+  float: left;
+}
+.sgq-recommend .sgq-recommend-box .sgq-recommend-top {
+  overflow: hidden;
+}
+.sgq-recommend .sgq-recommend-box .sgq-recommend-title {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 56px;
+  width: 200px;
+  float: left;
+}
+.sgq-recommend .sgq-recommend-box .sgq-recommend-more {
+  width: 66px;
+  height: 28px;
+  float: right;
+  margin-top: 16px;
+  background: url("../images/sgq/toubu_37.png");
+}
+.sgq-recommend .sgq-recommend-box .sgq-recommend-bottom {
+  height: 125px;
+}
+.sgq-recommend .sgq-recommend-box .sgq-recommend-bottom .sgq-recommend-left {
+  width: 150px;
+  float: left;
+}
+.sgq-recommend .sgq-recommend-box .sgq-recommend-bottom .sgq-recommend-left a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+}
+.sgq-recommend .sgq-recommend-box .sgq-recommend-bottom .sgq-recommend-left img {
+  width: 100%;
+  height: 100%;
+}
+.sgq-recommend .sgq-recommend-box .sgq-recommend-bottom .sgq-recommend-right {
+  width: 152px;
+  padding-left: 5px;
+  float: right;
+}
+.sgq-recommend .sgq-recommend-box .sgq-recommend-bottom .sgq-recommend-right p {
+  line-height: 18px;
+  font-size: 12px;
+  width: 100%;
+  height: 18px;
+  overflow: hidden;
+}
+.sgq-recommend .sgq-recommend-box .sgq-recommend-bottom .sgq-recommend-right .hot {
+  color: #ff6633;
+}
+.sgq-recommend:after {
+  content: "";
+  display: block;
+  clear: both;
+}
