@@ -1,0 +1,10 @@
+.sgq-banner-box {
+  height: 300px;
+  overflow: hidden;
+}
+.sgq-banner-box a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+}
