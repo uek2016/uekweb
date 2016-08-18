@@ -41,6 +41,7 @@
 .zkf_listRight{
 	float: right;
 	width:739px;
+	height: 645px;
 	border-left: 1px solid #45A2FF;
 	border-bottom: 1px solid #45A2FF;
 }
@@ -129,6 +130,7 @@
 	border-bottom: 1px dashed #92D5FF;
 	padding-bottom: 10px;
 	padding-top: 10px;
+	height: 99px;
 }
 .zkf_pages{
 	padding-top: 30px;
